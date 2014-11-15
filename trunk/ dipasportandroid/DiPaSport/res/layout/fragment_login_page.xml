@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ActivityTheme"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <!-- User name -->
+
+    <EditText
+        android:id="@+id/login_user"
+        style="@style/EditBoxStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:hint="@string/str_login_user_hint"
+        android:textColorHint="@color/app_label_color" />
+
+    <!-- Password -->
+
+    <EditText
+        android:id="@+id/login_password"
+        style="@style/EditBoxStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:hint="@string/str_login_password_hint"
+        android:inputType="textPassword"
+        android:textColorHint="@color/app_label_color" />
+
+    <!-- Login -->
+
+    <Button
+        android:id="@+id/login_loginbtn"
+        style="@style/ButtonNormalStyle"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:text="@string/str_login_button"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Register -->
+
+    <Button
+        android:id="@+id/login_register"
+        style="@style/ButtonNormalStyle"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:text="@string/str_login_register_button"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Password lost -->
+
+    <TextView
+        android:id="@+id/login_passworddlost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/str_login_passowordlost"
+        android:textColor="@color/di_login_passwordlost" />
+
+</LinearLayout>

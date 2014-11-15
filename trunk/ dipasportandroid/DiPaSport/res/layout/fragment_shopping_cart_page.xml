@@ -1,0 +1,144 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/ActivityTheme"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/shca_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/di_bg_textview"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="12dp"
+            android:orientation="vertical" >
+
+            <!-- Total without tax -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="4dp"
+                android:gravity="right"
+                android:text="@string/str_total_without_tax"
+                android:textColor="@android:color/white" />
+
+            <!-- Discount -->
+
+            <TextView
+                android:id="@+id/shca_discount_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="4dp"
+                android:gravity="right"
+                android:text="@string/str_discount_label"
+                android:textColor="@android:color/white"
+                android:visibility="gone" />
+
+            <!-- Tax -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="4dp"
+                android:gravity="right"
+                android:text="@string/str_tax"
+                android:textColor="@android:color/white" />
+
+            <!-- Total with tax -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="4dp"
+                android:gravity="right"
+                android:text="@string/str_total_with_tax"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:orientation="vertical" >
+
+            <!-- Total without tax -->
+
+            <TextView
+                android:id="@+id/shca_total_without_tax"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="4dp"
+                android:textColor="@android:color/white" />
+
+            <!-- Discount -->
+
+            <TextView
+                android:id="@+id/shca_discount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="4dp"
+                android:textColor="@android:color/white"
+                android:visibility="gone" />
+
+            <!-- Tax -->
+
+            <TextView
+                android:id="@+id/shca_tax"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="4dp"
+                android:textColor="@android:color/white" />
+
+            <!-- Total with tax -->
+
+            <TextView
+                android:id="@+id/shca_total_with_tax"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="4dp"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/shca_discount_button"
+        style="@style/ButtonNormalStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="4dp"
+        android:text="@string/str_discount" />
+
+    <Button
+        android:id="@+id/shca_complete_order_button"
+        style="@style/ButtonOrderStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="4dp"
+        android:text="@string/str_complete_order"
+        android:textAllCaps="true" />
+
+</LinearLayout>

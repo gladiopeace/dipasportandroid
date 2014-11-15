@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- SIZE -->
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="padding_language">16dp</dimen>
+    <!-- Font size of title login -->
+    <dimen name="di_size_of_title">24sp</dimen>
+
+    <!-- COLOR -->
+    <color name="app_bg_color">#F0EFF5</color>
+    <color name="app_label_color">#007BC3</color>
+    <color name="di_login_passwordlost">#FF2525</color>
+    <color name="price_color">#FF2525</color>
+
+    <!-- Capture barcode -->
+    <dimen name="standard_padding">8dip</dimen>
+    <dimen name="half_padding">4dip</dimen>
+
+</resources>

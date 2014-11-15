@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/di_bg_textview_nonecorder"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="8dp" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/str_discount_message"
+        android:textColor="@android:color/white" />
+
+    <EditText
+        android:id="@+id/discound_content"
+        style="@style/EditBoxStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:ems="10"
+        android:inputType="textCapCharacters" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/discount_warning_empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:visibility="invisible"
+        android:text="@string/str_discount_code_empty"
+        android:textColor="#FF2525" />
+
+    <Button
+        android:id="@+id/discount_checking_button"
+        style="@style/ButtonOrderStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:text="@string/str_discount_dialog_button"
+        android:textAllCaps="true"
+        android:textStyle="bold" />
+
+</LinearLayout>

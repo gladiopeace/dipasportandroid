@@ -1,0 +1,177 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_bg_color" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="4dp" >
+
+            <!-- PRODUCT IMAGE -->
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp" >
+
+                <ImageView
+                    android:id="@+id/product_detail_image"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:background="@drawable/loader" />
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|center_horizontal"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/di_textbox_transparent"
+                    android:ellipsize="none"
+                    android:gravity="center"
+                    android:scrollHorizontally="false"
+                    android:text="@string/str_detail_hint_photos"
+                    android:textSize="10sp" />
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <!-- PRODUCT NAME -->
+
+                <TextView
+                    android:id="@+id/product_detail_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp" />
+
+                <!-- PRODUCT CODE -->
+
+                <TextView
+                    android:id="@+id/product_detail_code"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <!-- PRODUCT PRICE -->
+
+                <TextView
+                    android:id="@+id/product_detail_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/price_color"
+                    android:textSize="12sp" />
+
+                <!-- DO NOT USED THIS FIELD -->
+
+                <TextView
+                    android:id="@+id/product_detail_list"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:textSize="12sp"
+                    android:visibility="gone" />
+
+                <com.dipacommerce.dipasport.shoppingcart.AddToCartButton
+                    android:id="@+id/product_detail_addtocart"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginBottom="4dp" />
+
+                <com.dipacommerce.dipasport.shoppingcart.AddToQuotationButton
+                    android:id="@+id/product_detail_addtoquote"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:visibility="gone" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/common_data_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="4dp" >
+
+            <!-- Code OEM -->
+
+            <TextView
+                android:id="@+id/product_detail_codeoem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="12sp" />
+
+            <!-- Part Condition -->
+
+            <TextView
+                android:id="@+id/product_detail_part_condition"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp" />
+
+            <!-- Availability -->
+
+            <TextView
+                android:id="@+id/product_detail_availability"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp" />
+
+            <!-- Quick overview -->
+
+            <TextView
+                android:id="@+id/product_detail_quickoverview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="12sp" />
+
+            <!-- Suitable for -->
+
+            <TextView
+                android:id="@+id/product_detail_suitablefor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <!-- Question form -->
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="8dp"
+            android:background="@color/di_bg_color_selector"
+            android:text="@string/add_to_cart"
+            android:textColor="@color/di_text_color_selector"
+            android:textSize="12sp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="4dp"
+            android:background="@color/di_bg_color_selector"
+            android:text="@string/add_to_quote"
+            android:textColor="@color/di_text_color_selector"
+            android:textSize="12sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</ScrollView>

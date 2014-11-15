@@ -1,0 +1,61 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="@android:style/Theme.Holo.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="ActivityTheme">
+        <item name="android:background">@color/app_bg_color</item>
+        <item name="android:baselineAligned">true</item>
+        <item name="android:padding">4dp</item>
+    </style>
+
+    <style name="EditBoxStyle">
+        <item name="android:ems">10</item>
+        <item name="android:background">@drawable/di_textbox_border</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="EditBoxStyleHighLight" parent="EditBoxStyle">
+        <item name="android:background">@drawable/di_textbox_border_highlight</item>
+    </style>
+
+    <style name="ButtonNormalStyle" parent="AppTheme">
+        <item name="android:background">@color/di_bg_color_selector</item>
+        <item name="android:textColor">@color/di_text_color_selector</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="ButtonOrderStyle" parent="ButtonNormalStyle">
+        <item name="android:background">@color/di_bg_color_order_selector</item>
+        <item name="android:textColor">@color/di_text_color_order_selector</item>
+    </style>
+
+    <style name="CaptureTheme" parent="android:Theme.Holo">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowActionModeOverlay">true</item>
+    </style>
+
+    <style name="ResultButton" parent="@android:style/Widget.Holo.Button.Borderless.Small">
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+</resources>
