@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ActivityTheme"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <!-- CUSTOMER INFORMATION -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
+            android:text="@string/str_register_customer_info"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <!-- Customer type -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_register_customer_type" />
+
+        <Spinner
+            android:id="@+id/register_customer_type"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:entries="@array/str_customer_type"
+            android:spinnerMode="dialog" />
+
+        <!-- First name -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_register_fname_hint" />
+
+        <EditText
+            android:id="@+id/register_fname"
+            style="@style/EditBoxStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp" >
+        </EditText>
+
+        <!-- Last name -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_register_lname_hint" />
+
+        <EditText
+            android:id="@+id/register_lname"
+            style="@style/EditBoxStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp" />
+
+        <!-- Company -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_register_company" />
+
+        <EditText
+            android:id="@+id/register_company"
+            style="@style/EditBoxStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp" />
+
+        <!-- Tax/VAT number -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_register_tax_vat_number" />
+
+        <EditText
+            android:id="@+id/register_taxvat"
+            style="@style/EditBoxStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp" />
+
+        <!-- Street address -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_register_street_address" />
+
+        <EditText
+            android:id="@+id/register_street"
+            style="@style/EditBoxStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp" />
+
+        <!-- City -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_register_city" />
+
+        <EditText
+            android:id="@+id/register_city"
+            style="@style/EditBoxStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp" />
+
+        <!-- State/Province -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_register_state_province" />
+
+        <EditText
+            android:id="@+id/register_state_province"
+            style="@style/EditBoxStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp" />
+
+        <!-- Zip/Postal code -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_register_zip_postal_code" />
+
+        <EditText
+            android:id="@+id/register_zip_postcode"
+            style="@style/EditBoxStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp" />
+
+        <!-- Country -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_register_country" />
+
+        <Spinner
+            android:id="@+id/register_country"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <!-- Telephone -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_register_telephone" />
+
+        <EditText
+            android:id="@+id/register_telephone"
+            style="@style/EditBoxStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp" />
+
+        <!-- Fax -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_register_fax" />
+
+        <EditText
+            android:id="@+id/register_fax"
+            style="@style/EditBoxStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp" />
+
+        <!-- LOGIN INFORMATION -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="@string/str_register_login_info"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <!-- Email -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_register_email_address" />
+
+        <EditText
+            android:id="@+id/register_email"
+            style="@style/EditBoxStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:ems="10"
+            android:inputType="textEmailAddress" />
+
+        <!-- Password -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_register_password" />
+
+        <EditText
+            android:id="@+id/register_passwd"
+            style="@style/EditBoxStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:ems="10"
+            android:inputType="textPassword" />
+
+        <!-- Password confirm -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_register_password_confirm" />
+
+        <EditText
+            android:id="@+id/register_passwd_confirm"
+            style="@style/EditBoxStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:ems="10"
+            android:inputType="textPassword" />
+
+        <TextView
+            android:id="@+id/register_privacy_links"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_register_privacy_links"
+            android:textColor="@color/app_label_color" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_register_privacy_label" />
+
+        <CheckBox
+            android:id="@+id/register_privacy_option"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/str_register_privacy_option" />
+
+        <CheckBox
+            android:id="@+id/register_add_newsletter"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/str_register_add_newsletter"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/register_cancel"
+                style="@style/ButtonNormalStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginRight="4dp"
+                android:layout_weight="1"
+                android:text="@string/str_dialog_cancel"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/register_ok"
+                style="@style/ButtonNormalStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginLeft="4dp"
+                android:layout_weight="1"
+                android:text="@string/str_dialog_ok"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

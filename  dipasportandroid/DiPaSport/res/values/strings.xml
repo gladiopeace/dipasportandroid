@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DiPaSport</string>
+    <string name="select_language">Scegli la lingua</string>
+    <string name="register_by_client">Android APP</string>
+    <string name="phone_number">+390523509862</string>
+    <string name="no_network_connection">Attenzione, nessuna connessione internet.</string>
+    <string name="add_to_cart">AGGIUNGI AL CARRELLO</string>
+    <string name="open_product_detail">APRI SCHEDA</string>
+    <string name="cms_page_phone">http://www.dipacommerce.com/appageiphone/?___store=default</string>
+    <string name="cms_page_tablet">http://www.dipacommerce.com/apppage/?___store=default</string>
+    <!-- Remove product from cart -->
+    <string name="cart_product_remove">Eliminare</string>
+    <!-- Quote -->
+    <string name="add_to_quote">RICHIESTA INFORMAZIONI</string>
+    <string name="euro">&#8364;</string>
+    <string name="str_dialog_confirm_remove_form_cart">Vuoi rimuore questo prodotto dal carrello?</string>
+    <string name="str_dialog_ok">OK</string>
+    <string name="str_dialog_cancel">Cancella</string>
+    <string name="str_loading">Caricamento&#8230;</string>
+    <string name="str_searching">Sto cercando&#8230;</string>
+    <string name="str_server_not_response">Connessione al server impossibile</string>
+    <string name="str_search_by">Scegli il metodo di ricerca</string>
+    <string name="str_search_by_finger">Inserisci da tastiera</string>
+    <string name="str_search_by_scan">scannerizza da barcode</string>
+    <string name="str_option_title">Scegli un opzione</string>
+
+    <!-- product info -->
+    <string name="str_product_code">Codice: </string>
+    <string name="str_product_code_oem">Codice OEM: </string>
+    <string name="str_product_price_prefix">IL TUO PREZZO: </string>
+    <string name="str_product_price_suffix"> per 1 pezzo</string>
+    <string name="str_confirm_exit_app">Sei sicuro di voler chiudere l\'applicazione ?</string>
+    <string name="str_loadmore">Carica altri risultati</string>
+
+    <!-- Menu at bottom -->
+    <string name="str_menu_home">Home</string>
+    <string name="str_menu_cerca">Cerca</string>
+    <string name="str_menu_account">Account</string>
+    <string name="str_menu_carrello">Carrello</string>
+    <string name="str_menu_contatti">Contatti</string>
+
+    <!-- Login section -->
+    <string name="str_login_title">Accedi a Di.Pa. Sport</string>
+    <string name="str_login_user_hint">username</string>
+    <string name="str_login_password_hint">password</string>
+    <string name="str_login_button">Accedi</string>
+    <string name="str_login_register_button">Crea account</string>
+    <string name="str_login_passowordlost">Hai dimenticato la password?</string>
+    <string name="str_login_username_empty">Inserisci la tua user name</string>
+    <string name="str_login_password_empty">Inserisci la tua password</string>
+    <string name="str_login_fail">Cannot login</string>
+    <string name="str_login_wait">Accesso&#8230;</string>
+    <string name="str_logout_confirm">Sei sicuro che vuoi uscire ?</string>
+    <string name="str_logout_title">Esci</string>
+    <string name="str_welcome">Benvenuto</string>
+    <string name="str_lostpassword_email_empty">Inserisci la tua email</string>
+
+    <!-- Homepage section -->
+    <string name="str_home_title">www.dipasport.com</string>
+    <string name="str_home_search">Cerca per codice OEM / Di.Pa.</string>
+    <string name="str_home_categoria">Cerca per categoria</string>
+    <string name="str_home_back_to_login_register">Nuovo Ciente?</string>
+    <string name="str_home_signin">Accedi</string>
+    <string name="str_home_call">CHIAMACI</string>
+    <string name="str_home_take_apicture">Scatta la foto del pezzo che stai cercando</string>
+    <string name="str_home_barcode">Ri-Ordina con codice QR</string>
+    <string name="str_home_call_confirm">Vuoi chiamare il numero +390523509862 ?</string>
+    <string name="str_home_call_confirm_ok">CHIAMA</string>
+    <string name="str_home_call_confirm_cancel">ANNULLA</string>
+    <string name="str_home_last_news">Ultime News:</string>
+
+    <string-array name="str_home_send_request_options">
+        <item>Aggiungi un’altra foto</item>
+        <item>Invia richiesta</item>
+    </string-array>
+
+    <!-- Search result -->
+    <string name="str_search_results_label">Risultati di ricerca:</string>
+    <string name="str_warning_search_keyword_empty">Inserisci i codici che vuoi cercare</string>
+    <string name="str_search_not_found">Nessun risultato</string>
+
+    <!-- Shopping cart -->
+    <string name="str_shopping_cart_title">Il tuo Carrello</string>
+    <string name="str_discount">se hai uno sconto clicca qui</string>
+    <string name="str_complete_order">completa l\'ordine</string>
+    <string name="str_total_without_tax">Totale imponibile</string>
+    <string name="str_tax">Iva</string>
+    <string name="str_total_with_tax">Totale Iva Inclusa</string>
+    <string name="str_quantity_title">Quantità</string>
+    <string name="str_please_wait">Elaborazione&#8230;</string>
+    <string name="str_order_fail">Order fail, please try again !</string>
+    <string name="str_order_success">Ordine inviato con successo</string>
+    <string name="str_order_confirm_title">Conferma Ordine</string>
+    <string name="str_order_confirm_content">Il tuo ordine sarà inviato.\nIl totale da pagare è di</string>
+    <string name="str_order_confirm_to_pay">Devi essere loggato per usare questa funzionalità</string>
+    <string name="str_addtocart_msg">Prodotto inserito nel carrello con successo</string>
+    <string name="str_cart_empty">Il tuo carrello è vuoto</string>
+    <string name="str_order_completed">L\'ordine è stato completato con successo.\nRiceverai un email con tutte le informazioni relative al tuo ordine.</string>
+    <string name="str_order_id_number">Numero Ordine</string>
+    <string name="str_discount_message">Inserisci il tuo codice coupon e clicca su conferma.</string>
+    <string name="str_discount_label">Sconto</string>
+    <string name="str_discount_dialog_button">conferma</string>
+    <string name="str_discount_code_empty">inserisci il tuo codice sconto</string>
+    <string name="str_discount_expired">Coupon code is expired</string>
+    <string name="str_product_existing_incart">Questo prodotto è già presente nel carrello</string>
+    <string name="str_coupon_used">Il buono sconto è già stato usato</string>
+    <string name="str_coupon_not_valid">Lo sconto non è valido</string>
+
+    <string-array name="options">
+        <item>AGGIUNGI ALTRI PRODOTTI</item>
+        <item>COMPLETA L\'ORDINE</item>
+    </string-array>
+
+    <!-- Detail page -->
+    <string name="str_alert_login_register">Loggati o Registrati per vedere i tuoi prezzi, ordinare o richiedere un
+preventivo</string>
+    <string name="str_detail_availability">DISPONIBILITÀ</string>
+    <string name="str_detail_quick_overview">CARATTERISTICHE</string>
+    <string name="str_detail_suitablefor">APPLICAZIONE</string>
+    <string name="str_detail_partcondition">CONDIZIONE DEL PEZZO</string>
+    <string name="str_detail_hint_photos">Clicca per vedere tutte le foto</string>
+    <string name="str_detail_price_unavailable">I prezzi saranno visibili entro 24/48 ore successive alla sua iscrizione</string>
+    <string name="str_customer_banned">Sei bannato. Per riattivare il catalogo e poter acquistare ti chiediamo di contattarci in sede</string>
+    <string name="str_detail_product_unavailable">RICAMBIO NON DISPONIBILE, DOBBIAMO RIPARARE IL VOSTRO, DURATA MEDIA DI %s GIORNI, ESCLUSO IL TEMPO DI TRASPORTO.</string>
+    <string name="str_detail_product_available">ABBIAMO DISPONIBILE IN PRONTA CONSEGNA IL RICAMBIO, SI PREGA DI RESTITUIRE LA CARCASSA ENTRO E NON OLTRE %s GIORNI LAVORATIVI.</string>
+    <string name="str_price_garage_shop">Prezzo Consigliato per l\'Officina: €</string>
+    <string name="str_price_retailer">Prezzo Consigliato per il Ricambista: €</string>
+    <string name="str_price_distributor">Prezzo Consigliato per il Grossista: €</string>
+    <string name="str_purchase_price">Prezzo di acquisto: €</string>
+    <string name="str_competitive_price">Prezzi concorrenti:</string> 
+
+    <!-- Upload product -->
+    <string name="str_field1">Indica che ricambio cercavi*</string>
+    <string name="str_field2">Indicare marca, modello e anno del veicolo*</string>
+    <string name="str_field3">Indicare la marca e codice del ricambio</string>
+    <string name="str_field4">Indicare il difetto del veicolo su strada</string>
+    <string name="str_field5">Inserisci il difetto in diagnosi con codice e descrione del difetto</string>
+    <string name="str_field6">Nome &amp; Cognome*</string>
+    <string name="str_field7">Email*</string>
+    <string name="str_field8">Telefono*</string>
+    <string name="str_upload_submit">Invia</string>
+    <string name="str_required">Per favore compila tutti i campi richiesti</string>
+    <string name="str_upload_send_mail_ok">La richiesta è stata inviata con successo a</string>
+    <string name="str_email_subject">Richiesta prodotto da App</string>
+
+    <!-- BarCode Scanner -->
+    <string name="button_ok">OK</string>
+    <string name="msg_camera_framework_bug">Sorry, the Android camera encountered a problem. You may need to restart the device.</string>
+    <string name="msg_default_format">Format</string>
+    <string name="msg_default_meta">Metadata</string>
+    <string name="msg_default_status">Inquadra il codice QR con la tua fotocamera per ordinare il prodotto</string>
+    <string name="msg_default_time">Time</string>
+    <string name="msg_default_type">Type</string>
+    <string name="msg_intent_failed">Sorry, the requested application could not be launched. The barcode contents may be invalid.</string>
+    <string name="msg_search_product_info">Cerca informazioni prodotto&#8230;</string>
+    <string name="menu_history">CRONOLOGIA</string>
+    <string name="menu_home">HOME</string>
+    <string name="msg_product_found">Prodotto trovato</string>
+    <string name="msg_remove_all_history">Elimina tutto</string>
+    <string name="msg_history_remove_all">Vuoi cancellare tutta la cronologia?</string>
+
+    <!-- Contact page -->
+    <string name="str_contact_company">Di.Pa. Sport Srl</string>
+    <string name="str_contact_address_1">Via della Chiusa, 24</string>
+    <string name="str_contact_address_2">29010 Roveleto di Cadeo (PC) - Italy</string>
+    <string name="str_contact_tel">Tel. +39.0523509862</string>
+    <string name="str_contact_email">Email: info@dipasport.com</string>
+    <string name="str_contact_maps">Dove Siamo</string>
+    <string name="str_contact_social_network">Social Network</string>
+
+    <!-- Register page -->
+    <string name="str_register_customer_info">Informazione Clienti</string>
+    <string name="str_register_login_info">Informazioni di accesso</string>
+    <!-- Customer info -->
+    <string name="str_register_customer_type">Tipo di Azienda*</string>
+
+    <string-array name="str_customer_type">
+        <item>PRIVATO</item>
+        <item>OFFICINA</item>
+        <item>RICAMBISTA</item>
+        <item>GROSSISTA</item>
+        <item>AGENTE</item>
+        <item>OFF S</item>
+    </string-array>
+
+    <string name="str_register_fname_hint">Nome*</string>
+    <string name="str_register_lname_hint">Cognome*</string>
+    <string name="str_register_company">Ragione Sociale / Inserire il Nome se privato*</string>
+    <string name="str_register_tax_vat_number">Partita iva o Codice Fiscale*</string>
+    <string name="str_register_street_address">Via e numero*</string>
+    <string name="str_register_city">Comune*</string>
+    <string name="str_register_state_province">Provincia</string>
+    <string name="str_register_zip_postal_code">CAP*</string>
+    <string name="str_register_country">Nazione*</string>
+    <string name="str_register_telephone">Telefono*</string>
+    <string name="str_register_fax">Fax</string>
+    <!-- Register info -->
+    <string name="str_register_email_address">Indirizzo email*</string>
+    <string name="str_register_password">Inserisci la tua password*</string>
+    <string name="str_register_password_confirm">Conferma password*</string>
+    <string name="str_register_fail">Errore durante la registrazione</string>
+    <string name="str_register_header">Informazioni registrazione</string>
+    <string name="str_register_email_hint">Email</string>
+    <string name="str_register_password_hint">Password</string>
+    <string name="str_register_password_confirm_not_match">Assicurati che le password corrispondano</string>
+    <string name="str_register_password_length_min">La password deve essere almeno di 6 caratteri e senza spazi.</string>
+    <string name="str_register_privacy_links">Informativa ai sensi del D.Lgs. 196/03 sulla tutela dei dati personali (clicca per leggere)</string>
+    <string name="str_register_privacy_url">http://www.dipacommerce.com/privacy</string>
+	<string name="str_register_privacy_label">Regole Privacy *</string>
+	<string name="str_register_privacy_option">Accetto</string>
+	<string name="str_register_add_newsletter">Iscriviti alla nostra newsletter</string>
+    
+    <!-- Lost password -->
+    <string name="str_lostpassword_fail_msg">Error during reset your password</string>
+    <string name="str_lostpassword_title">Password dimenticata</string>
+    <string name="str_lostpassword_content">Inserisci la tua email per resettare la password</string>
+    <string name="str_lostpassword_msg">Abbiamo inviato un link per resettare la tua password alla tua email </string>
+
+    <!-- Quotation -->
+    <string name="str_quotation_label">richieste</string>
+    <string name="str_quotation_button">conferma richiesta informazioni</string>
+    <string name="str_quotaion_tab_shopping_cart">Carrello</string>
+    <string name="str_quotaion_tab_quotation">Richieste</string>
+    <string name="str_quotation_request_code">Invia richiesta informazioni</string>
+    <string name="str_quotation_added_product">Prodotto aggiunto alle richieste</string>
+    <string name="str_quotation_msg_sending_quote">Invio il tuo preventivo</string>
+    <string name="str_quotation_msg_success">Il tuo preventivo è stato inviato con successo. Ti risponderemo nel minor tempo possibile.</string>
+
+    <!-- Search request form -->
+    <string name="str_search_msg_not_found">La tua ricerca non ha prodotto risultati.\nCompila la scheda qui sotto e verrai contattato al più presto dal nostro staff.</string>
+    <string name="str_search_information_request">RICHIESTA INFORMAZIONI</string>
+    <string name="str_search_part_requested">Indica che ricambio cercavi*</string>
+    <string name="str_search_typeof_vehicle">Indicare il veicolo*</string>
+    <string name="str_search_modelof_vehicle">Indicare il modello*</string>
+    <string name="str_search_brandof_part">Indicare la marca del ricambio*</string>
+    <string name="str_search_part_numbers">Indicare il/i codici che trovi nel ricambio*</string>
+    <string name="str_search_faultof_vehicle">Inserisci il difetto del veicolo su strada*</string>
+    <string name="str_search_fault_codes_descriptions">Inserisci il difetto in diagnosi con codice e descrizione del difetto (esempio: "P-1000 sonda lambda bancata 1")</string>
+    <string name="str_search_additional_info">Eventuali comunicazioni</string>
+    <string name="str_search_contact_detail">DATI CONTATTO</string>
+    <string name="str_search_company">Azienda*</string>
+    <string name="str_search_upload_picture">Inserisci la foto del ricambio se ne hai una</string>
+    <string name="str_search_request_msg1">Grazie per aver inviato la tua richiesta.</string>
+    <string name="str_search_request_msg2">Un nostro incaricato vi risponderà nel minor tempo possibile.</string>
+    <string name="str_search_request_msg3">Il team Di.Pa. Sport</string>
+    
+</resources>

@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ActivityTheme"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/search_header_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="@string/str_search_msg_not_found" />
+
+        <LinearLayout
+            android:id="@+id/search_information_requested"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:gravity="center_horizontal"
+                android:text="@string/str_search_information_request"
+                android:textStyle="bold" />
+            <!-- Part requested -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_search_part_requested" />
+
+            <EditText
+                android:id="@+id/search_part_requested"
+                style="@style/EditBoxStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:ems="10" />
+
+            <!-- Type of vehicle -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_search_typeof_vehicle" />
+
+            <EditText
+                android:id="@+id/search_typeof_vehicle"
+                style="@style/EditBoxStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:ems="10" />
+
+            <!-- Model of the vehicle -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_search_modelof_vehicle" />
+
+            <EditText
+                android:id="@+id/search_modelof_vehicle"
+                style="@style/EditBoxStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:ems="10" />
+
+            <!-- Brand of the part -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_search_brandof_part" />
+
+            <EditText
+                android:id="@+id/search_brandof_part"
+                style="@style/EditBoxStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:ems="10" />
+
+            <!-- Part numbers on the part requested -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_search_part_numbers" />
+
+            <EditText
+                android:id="@+id/search_part_numbers"
+                style="@style/EditBoxStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:ems="10" />
+
+            <!-- Fault of the vehicle while driving -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_search_faultof_vehicle" />
+
+            <EditText
+                android:id="@+id/search_faultof_vehicle"
+                style="@style/EditBoxStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:ems="10" />
+
+            <!-- Fault detected with diagnosis with fault codes and fault description (ie: “P-1100 MASS AIRFLOW (MAF) SENSOR INTERMITTENT”) -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_search_fault_codes_descriptions" />
+
+            <EditText
+                android:id="@+id/search_fault_detected"
+                style="@style/EditBoxStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:ems="10" />
+
+            <!-- Additional information -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_search_additional_info" />
+
+            <EditText
+                android:id="@+id/search_add_info"
+                style="@style/EditBoxStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:ems="10" />
+
+            <ImageView
+                android:id="@+id/search_imageview_picture_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/search_picture_1"
+                style="@style/ButtonNormalStyle"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginBottom="4dp"
+                android:text="@string/str_search_upload_picture" />
+
+            <ImageView
+                android:id="@+id/search_imageview_picture_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/search_picture_2"
+                style="@style/ButtonNormalStyle"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginBottom="4dp"
+                android:text="@string/str_search_upload_picture" />
+
+            <ImageView
+                android:id="@+id/search_imageview_picture_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/search_picture_3"
+                style="@style/ButtonNormalStyle"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginBottom="4dp"
+                android:text="@string/str_search_upload_picture" />
+        </LinearLayout>
+        <!-- CONTACT DETAIL IF NOT LOGIN -->
+
+        <LinearLayout
+            android:id="@+id/search_contact_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="8dp" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:gravity="center_horizontal"
+                android:text="@string/str_search_contact_detail"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_register_fname_hint" />
+
+            <EditText
+                android:id="@+id/search_contact_name"
+                style="@style/EditBoxStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:ems="10" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_register_lname_hint" />
+
+            <EditText
+                android:id="@+id/search_contact_surname"
+                style="@style/EditBoxStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:ems="10" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_search_company" />
+
+            <EditText
+                android:id="@+id/search_contact_company"
+                style="@style/EditBoxStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:ems="10" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_register_telephone" />
+
+            <EditText
+                android:id="@+id/search_contact_phone"
+                style="@style/EditBoxStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:ems="10"
+                android:inputType="phone" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_register_email_hint" />
+
+            <EditText
+                android:id="@+id/search_contact_email"
+                style="@style/EditBoxStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:ems="10"
+                android:inputType="textEmailAddress" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/search_requested_submit"
+            style="@style/ButtonNormalStyle"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:text="@string/str_upload_submit"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+</ScrollView>

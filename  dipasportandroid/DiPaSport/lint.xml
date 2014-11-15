@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="MissingPrefix">
+        <ignore path="res/layout/ctrl_cart_tab.xml" />
+    </issue>
+    <issue id="MissingTranslation" severity="ignore">
+        <ignore path="res/values/strings.xml" />
+    </issue>
+    <issue id="ValidFragment" severity="ignore">
+        <ignore path="src/com/megatech/dipasport/categories/CategoryImp.java" />
+        <ignore path="src/com/megatech/dipasport/customer/CustomerActionsImp.java" />
+    </issue>
+</lint>
